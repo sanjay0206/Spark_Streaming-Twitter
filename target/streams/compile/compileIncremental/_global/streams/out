@@ -1,0 +1,51 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 0 products, 0 sources, 0 libraries
+[debug] current source = Set(${BASE}/src/main/scala/com/spark/twitter/config/TwitterConfig.scala, ${BASE}/src/main/scala/com/spark/twitter/app/TrendingHashTags.scala, ${BASE}/src/main/scala/com/spark/twitter/app/TwitterApp.scala, ${BASE}/src/main/scala/com/spark/twitter/app/TwitterSparkSQL.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/spark/twitter/app/TrendingHashTags.scala, ${BASE}/src/main/scala/com/spark/twitter/app/TwitterSparkSQL.scala, ${BASE}/src/main/scala/com/spark/twitter/config/TwitterConfig.scala, ${BASE}/src/main/scala/com/spark/twitter/app/TwitterApp.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())
+[debug] Full compilation, no sources in previous analysis.
+[debug] all 4 sources are invalidated
+[debug] Initial set of included nodes: 
+[debug] Recompiling all sources: number of invalidated sources > 50.0% of all sources
+[debug] compilation cycle 1
+[info] compiling 4 Scala sources to /home/sanjay/IdeaProjects/TwitterApp/target/scala-2.11/classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.11:1.5.7:compile for Scala 2.11.8
+[info] Non-compiled module 'compiler-bridge_2.11' for Scala 2.11.8. Compiling...
+[debug] Creating plain compiler interface for 2.11.8.
+[debug]   > Arguments: 
+[debug] 	-d
+[debug] 	/tmp/sbt_6b371c51
+[debug] 	-nowarn
+[debug] 	-bootclasspath
+[debug] 	/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8.jar
+[debug] 	-classpath
+[debug] 	/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.7/compiler-interface-1.5.7.jar:/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.0/util-interface-1.5.0.jar:/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.11/1.5.7/compiler-bridge_2.11-1.5.7-sources.jar:/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.8/scala-compiler-2.11.8.jar:/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.8/scala-reflect-2.11.8.jar:/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.4/scala-xml_2.11-1.0.4.jar:/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar:/home/sanjay/.cache/coursier/v1/https/repo1.maven.org/maven2/jline/jline/2.12.1/jline-2.12.1.jar
+[debug] 	/tmp/sbt_ee31f2ab/scala/ZincCompat.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/API.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/AbstractZincFile.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/Analyzer.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/CallbackGlobal.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/ClassName.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/Compat.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/CompilerBridge.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/ConsoleBridge.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/DelegatingReporter.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/Dependency.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/ExtractAPI.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/ExtractUsedNames.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/GlobalHelpers.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/InteractiveConsoleBridge.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/InteractiveConsoleFactoryBridge.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/InteractiveConsoleHelper.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/InteractiveConsoleResponse.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/JarUtils.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/JavaUtils.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/LocalToNonLocalClass.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/LocateClassFile.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/Log.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/Message.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/PlainNioFile.scala
+[debug] 	/tmp/sbt_ee31f2ab/xsbt/ScaladocBridge.scala
+[debug]       
+[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.11:1.5.7.
+[error] (Compile / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.11'
